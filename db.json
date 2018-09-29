@@ -1,12 +1,13 @@
 {
   "posts": [
-    { "id": 1, "title": "Espresso" },
-    { "id": 2, "title": "Moccha" },
-    { "id": 3, "title": "Machiatto" }
+    { "id": 1, "title": "Espresso", "price": "$6" },
+    { "id": 2, "title": "Latte", "price": "$8" },
+    { "id": 3, "title": "Macchiato", "price": "$4" }
   ],
   "comments": [
-    { "id": 1, "body": "I <3 Coffee!", "postId": 1 },
-    { "id": 2, "body": "Coffe is life!", "postId": 1 }
+    { "id": 1, "body": "O nome “espresso” vem do italiano “espremido, pressionado”. Ele é feito em poucos segundos sob alta pressão de água na temperatura de consumo. Isso faz com que acumule muito sabor e intensidade", "postId": 1 },
+    { "id": 2, "body": "O Café Latte não é exatamente uma forma sofisticada de se tratar do café com leite. Em sua receita original, utiliza-se leite vaporizado misturado a uma dose de café espresso, além de 1 centímetro de espuma de leite servido sobre a bebida.", "postId": 2 }
+    { "id": 3, "body": "O macchiato é muito parecido com o café espresso, mas adiciona uma dose de leite vaporizado para suavizar o sabor intenso do espresso.", "postId": 3 }
   ],
   "profile": {
     "name": "skanp"
